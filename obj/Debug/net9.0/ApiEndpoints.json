@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "MvcWithApi.Controllers.PartyApiController",
+    "Method": "GetAll",
+    "RelativePath": "api/PartyApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MvcWithApi.Controllers.PartyApiController",
+    "Method": "Create",
+    "RelativePath": "api/PartyApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "party",
+        "Type": "MvcWithApi.Models.Party.Party",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MvcWithApi.Controllers.PartyApiController",
+    "Method": "GetById",
+    "RelativePath": "api/PartyApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MvcWithApi.Controllers.PartyApiController",
+    "Method": "Update",
+    "RelativePath": "api/PartyApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "party",
+        "Type": "MvcWithApi.Models.Party.Party",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MvcWithApi.Controllers.PartyApiController",
+    "Method": "Delete",
+    "RelativePath": "api/PartyApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
