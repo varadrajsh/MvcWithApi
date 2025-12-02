@@ -53,10 +53,11 @@ namespace MvcWithApi.Data
         }
 
         //Execute StoreProc that return single value
-        public async Task<object>? ExecuteScalarAsync(SqlCommand cmd)
+        public async Task<object?> ExecuteScalarAsync(SqlCommand cmd)
         {
             return await cmd.ExecuteScalarAsync();
         }
     }
 }
+
 
