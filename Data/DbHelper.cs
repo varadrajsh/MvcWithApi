@@ -23,7 +23,7 @@ namespace MvcWithApi.Data
         // Create Command for stored procedure
         public SqlCommand CreateCommand(SqlConnection conn, string procName)
         {
-            using var cmd = conn.CreateCommand();
+            var cmd = conn.CreateCommand();
             cmd.CommandText = procName;
             cmd.CommandType = CommandType.StoredProcedure;
             return cmd;
@@ -59,3 +59,4 @@ namespace MvcWithApi.Data
         }
     }
 }
+
